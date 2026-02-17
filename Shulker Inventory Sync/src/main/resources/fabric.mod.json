@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "shulkersync",
+  "version": "1.0.0",
+  "name": "Shulker Inventory Sync",
+  "entrypoints": {
+    "client": [ "net.yourname.shulkersync.ShulkerSync" ]
+  },
+  "mixins": [ "shulkersync.mixins.json" ],
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.5",
+    "java": "21"
+  }
+}
